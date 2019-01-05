@@ -130,7 +130,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="47" />
+    <option name="x" value="-1319" />
     <option name="y" value="-772" />
     <option name="width" value="1319" />
     <option name="height" value="772" />
@@ -186,7 +186,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546709657648" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546709684945" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../login-form-cookies/pom.xml" />
   </component>
   <component name="RunDashboard">
