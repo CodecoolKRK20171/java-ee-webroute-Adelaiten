@@ -16,6 +16,8 @@ public class WebRouteHandler implements HttpHandler {
         System.out.println(httpExchange.getRequestURI().getPath());
         URI uri = httpExchange.getRequestURI();
         String path = uri.getPath();
+        String httpExchangeMethod = httpExchange.getRequestMethod();
+        System.out.println(httpExchangeMethod);
         Class router = Router.class;
         Method[] methods = router.getMethods();
         for(Method method : methods) {
@@ -23,7 +25,7 @@ public class WebRouteHandler implements HttpHandler {
             for(Annotation annotation : annotations) {
                 if(annotation instanceof WebRoute) {
                     WebRoute webRoute = (WebRoute) annotation;
-                    if(webRoute.path().equals(path)){
+                    if(webRoute.path().equals(path) && webRoute.method().equals(httpExchangeMethod)){
                         try{
                             Constructor constructor = router.getDeclaredConstructor(new Class[] {HttpExchange.class});
                             Router routerObj = (Router) constructor.newInstance(new Object[]{httpExchange});
