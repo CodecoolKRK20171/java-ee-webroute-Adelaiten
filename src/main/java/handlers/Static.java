@@ -3,6 +3,7 @@ package handlers;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory;
+import helpers.MimeTypeResolver;
 
 import java.io.File;
 import java.io.FileInputStream;
