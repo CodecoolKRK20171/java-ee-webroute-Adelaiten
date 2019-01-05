@@ -1,0 +1,32 @@
+div table {
+    width: 600px;
+    border-collapse: collapse;
+    align-self: center;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.5);
+}
+
+table th {
+    text-align: left;
+    background-color: #1d1c1c;
+    color: #ffffff;
+    padding: 5px;
+   
+}
+table tr {
+    height: 50px;
+}
+
+td:nth-child(1), th:nth-child(1) {
+    border-right: 1px solid #6e6e6e;
+}
+td {
+    border-bottom: 1px solid #6e6e6e;
+    padding: 5px;
+}
+table tr:nth-child(2n) td {
+    background-color: #adadad;
+}
+
+table tr:nth-child(3n) td {
+    background-color: #ffffff;
+}
