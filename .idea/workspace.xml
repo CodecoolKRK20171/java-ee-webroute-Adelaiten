@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="10dd0873-3480-415c-bb79-fc3eb374c1d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/annotations/WebRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/annotations/WebRoute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/handlers/Router.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handlers/Router.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/handlers/WebRouteHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handlers/WebRouteHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/html/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/html/index.twig" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,32 +24,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="3" />
+          <entry key="html" value="4" />
           <entry key="java" value="18" />
           <entry key="jtwig" value="1" />
-          <entry key="twig" value="1" />
+          <entry key="twig" value="3" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
+          <entry key="HTML" value="4" />
           <entry key="JAVA" value="18" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2364" />
-          <entry key="twig" value="27" />
+          <entry key="java" value="2678" />
+          <entry key="twig" value="58" />
           <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2364" />
-          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="JAVA" value="2678" />
+          <entry key="PLAIN_TEXT" value="58" />
           <entry key="XML" value="9" />
         </counts>
       </usages-collector>
@@ -82,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/handlers/Router.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            <state relative-caret-position="199">
+              <caret line="43" selection-start-line="43" selection-start-column="2" selection-end-line="53" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#200#201#0" expanded="true" />
@@ -96,8 +95,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="255">
               <caret line="20" column="64" lean-forward="true" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/html/index.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -164,11 +172,11 @@
         <option value="$PROJECT_DIR$/src/main/java/handlers/Static.java" />
         <option value="$PROJECT_DIR$/src/main/java/helpers/MimeTypes.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/html/index.twig" />
         <option value="$PROJECT_DIR$/src/main/resources/html/login.twig" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/annotations/WebRoute.java" />
         <option value="$PROJECT_DIR$/src/main/java/handlers/WebRouteHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/html/index.twig" />
         <option value="$PROJECT_DIR$/src/main/java/handlers/Router.java" />
       </list>
     </option>
@@ -260,7 +268,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546722080299" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546722512165" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../login-form-cookies/pom.xml" />
   </component>
   <component name="RecentsManager">
@@ -309,10 +318,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1319" y="-772" width="1319" height="772" extended-state="6" />
+    <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24943139" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24943139" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="DB Browser" order="3" />
@@ -324,7 +333,7 @@
       <window_info id="Image Layers" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32866043" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32866043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -385,20 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/html/login.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/html/index.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/handlers/Static.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
@@ -439,17 +434,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/html/login.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="255">
           <caret line="20" column="64" lean-forward="true" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/html/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/handlers/Router.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        <state relative-caret-position="199">
+          <caret line="43" selection-start-line="43" selection-start-column="2" selection-end-line="53" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />
